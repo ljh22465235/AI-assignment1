@@ -23,4 +23,4 @@ if __name__ == '__main__':
 
     cleaned = clean(args.contact_info_file, args.other_info_file)
     cleaned.to_csv(args.output_file, index=False)
-    #print('The shape of the cleaned file is: ', cleaned.shape)
+    print('The shape of the cleaned file is: ', cleaned.shape)
